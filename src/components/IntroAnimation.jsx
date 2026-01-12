@@ -5,7 +5,7 @@ export default function IntroAnimation({onFinish}){
   const greetings = useMemo(() => [
     "Hello", "नमस्ते", "Hola", "Bonjour",
     "Ciao", "Olá", "Здравствуйте",
-    "Merhaba", "Γειά", "Hej", "Hallo", "Salam"
+    "Merhaba", "Γειά", "Hej", "Salam", "Hello"
   ], []);
   const [index, setIndex] = React.useState(0);
   const [visible, setVisible] = React.useState(true);
