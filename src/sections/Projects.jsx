@@ -1,8 +1,16 @@
 import { motion } from "framer-motion";
 import img1 from "../assets/img1.png";
 import img2 from "../assets/img2.png";
+import img3 from "../assets/img3.png";
 
 const projects = [
+  {
+    title: "Meetify — WebRTC Video Conferencing Platform",
+    desc: "A real-time video conferencing app with WebRTC, supporting peer-to-peer video calls, multi-user meetings, and live chat using React, Node.js, and WebSockets.",
+    tags: ["WebRTC", "Socket.IO", "P2P"],
+    image: img3,
+    link: "https://meetify-webrtc-frontend.onrender.com/",
+  },
   {
     title: "Trip Heaven - Travel with Comfort",
     desc: "Full-stack web application using REST APIs to list, browse, and manage accommodations with a smooth booking experience.",
